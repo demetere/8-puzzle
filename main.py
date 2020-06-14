@@ -242,7 +242,6 @@ def main():
     stop = timeit.default_timer()
 
     print_result(frontier, stop - start)
-    print('debugger')
 
 function_map = {
     'bfs': bfs,
